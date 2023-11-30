@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "externalTerminal",
+        "args": [
+          "-OO"
+        ],
+        "justMyCode": true,
+        "sudo": false,
+        "django": false,
+        "jinja": false,
+        "gevent": false,
+        "subProcess": false,
+        "pyramid": false
+      }
+    ]
+  }
